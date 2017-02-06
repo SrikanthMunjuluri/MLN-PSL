@@ -1,0 +1,22 @@
+predicates:
+  Person/1: closed
+  Friends/2: closed
+  Smokes/1: open
+  Cancer/1: open
+
+
+observations:
+  Person : 
+  - Persons.txt
+  - Person2.txt
+  Friends : Friends_obs.txt
+  Smokes : Smokes.txt
+  Cancer : Cancer.txt
+
+targets: 
+  Smokes : Smokes_targets.txt
+  Cancer : Cancer_targets.txt
+
+truth: 
+  Smokes : Smokes_truth.txt
+  Cancer : Cancer_truth.txt

@@ -1,0 +1,4 @@
+Smokes(Anna)
+Smokes(Edward)
+Smokes(Frank)
+Smokes(Gary)

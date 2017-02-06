@@ -1,0 +1,7 @@
+0: Smokes(P1) -> Cancer(P1) ^2
+0: Friends(P1,P2) & Smokes(P1) -> Smokes(P2) ^2
+0: Friends(P2,P1) & Smokes(P1) -> Smokes(P2) ^2
+0: ~Cancer(P)
+0: ~Smokes(P)
+
+
